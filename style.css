@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: #ffffff; /* Light mode background */
+    color: #333333; /* Light mode text */
+    padding: 20px;
+}
+
+.dark-mode {
+    background-color: #333333; /* Dark mode background */
+    color: #ffffff; /* Dark mode text */
+}
+
+button {
+    padding: 10px 15px;
+    border: 1px solid #cccccc;
+    background-color: #f0f0f0;
+    color: #333333;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.dark-mode button {
+    background-color: #555555;
+    color: #ffffff;
+    border-color: #777777;
+}
+
+h1 {
+    margin-top: 0;
+}
